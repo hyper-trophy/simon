@@ -27,7 +27,7 @@ $(".gobtn2").on("click", function(){
 var keys;
 function createGame(){
     level=1;
-    keys=new Array();
+    keys=[];
     started=true;
     $(".gamecont").removeClass("wrong");
     $(".greet").addClass("visually-hidden");
