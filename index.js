@@ -96,7 +96,8 @@ function pressBtn(i){
 }
 
 function gameover(){
-    
+    current=0;
+    keys=[];
     aud=new Audio("sounds/wrong.mp3");
     aud.play();
     $(".gamecont").css("opacity", "0.2");
