@@ -26,6 +26,7 @@ $(".gobtn2").on("click", function(){
 })
 var keys;
 function createGame(){
+    current=0;
     level=1;
     keys=[];
     started=true;
